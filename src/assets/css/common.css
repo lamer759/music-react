@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: #666;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #666;
+    text-decoration: none;
+}
+
+input {
+    border: none;
+    background: none;
+    outline: none;
+}
+
+input:focus {
+    border: none;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+i,
+em {
+    font-style: normal;
+}
+
+.wrap-v1 {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.wrap-v2 {
+    width: 980px;
+    margin: 0 auto;
+}
+
+.sprite_01 {
+    background: url(../img/sprite_01.png) no-repeat 0 9999px;
+}
+  
