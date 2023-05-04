@@ -7,11 +7,13 @@
 a {
     color: #666;
     text-decoration: none;
+    font-size: 12px;
 }
 
 a:hover {
     color: #666;
-    text-decoration: none;
+    /* 添加下划线 */
+    text-decoration: underline;
 }
 
 input {
@@ -48,4 +50,12 @@ em {
 .sprite_01 {
     background: url(../img/sprite_01.png) no-repeat 0 9999px;
 }
-  
+.sprite_02 {
+    background: url(../img/sprite_02.png) no-repeat 0 9999px;
+}
+button {
+    border: 0;
+}
+h1 {
+    margin: 0;
+}

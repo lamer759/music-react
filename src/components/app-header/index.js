@@ -3,6 +3,7 @@ import { headerLinks } from '@/common/local-data'
 
 import { NavLink } from 'react-router-dom';
 import { HeaderWrapper, HeaderRight, HeaderLeft } from './style'
+
 export default memo(function WYAppHeader() {
   const showSelectItem = (item, index) => {
     if (index < 3) {
